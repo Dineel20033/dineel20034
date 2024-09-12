@@ -269,8 +269,8 @@ header {
 .sec03 p {
     flex: 1; 
     line-height: 1.9; 
-    color: #333; 
-    font-size: 18px; 
+    color: #00796b ; 
+    font-size: 15px; 
     text-align: left; 
     margin-left: 20px; 
 }
