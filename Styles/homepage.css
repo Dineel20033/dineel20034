@@ -183,7 +183,7 @@ header {
         display: flex;
         flex-direction: row; 
         align-items: flex-start;
-        gap: 18px; 
+        gap: 10px; 
         width: 100%; 
     }
 
