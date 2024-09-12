@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy page</title>
+    <link rel="stylesheet" href="Styles/homepage.css">
+    <link rel="stylesheet" href="Styles/header.css">
+    <link rel="stylesheet" href="Styles/footer.css">
+    <link rel="stylesheet" href="Styles/Pharmacy.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+           
+            <img src="images/logo.png" alt="logo" class="logo" >
+    
+            <input type="checkbox" id="menu-toggle-checkbox" class="menu-checkbox">
+            <label for="menu-toggle-checkbox" class="menu-toggle">
+                <i class="fa fa-bars open-icon"></i>
+                <i class="fa fa-times close-icon"></i>
+                <span class="menu-text">Menu Button</span>
+            </label>
+    
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About_us .html">About us</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="Doctors.html">Doctors</a></li>
+                <li><a href="Consulting_Reservation.html">Channeling</a></li>
+                <li><a href="Pharmacy.html">Pharmacy</a></li>
+              
+            </ul>
+        
+        </nav>
+       </div>
+<img src="images/pharmacy form.png" alt="pharmacy_form_image" class="pharmacy_form_image">
+
+       <section id="pharmacy_form" class="pharmacy-form">
+        <div class="form-container">
+            <header>
+                <h2>Pharmacy Form</h2>
+            </header>
+            <form class="pharmacy-form" id="pharmacy-form" action="#" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="medicine">Select Medicine</label>
+                    <select id="medicine" name="medicine" required>
+                        <option value="" disabled selected>Select an option</option>
+                        <option value="aspirin">Aspirin</option>
+                        <option value="tylenol">Tylenol</option>
+                        <option value="antibiotic">Antibiotic</option>
+                        <option value="metformin">Metformin</option>
+                        <option value="lisinopril">Lisinopril</option>
+                        <option value="amlodipine">Amlodipine</option>
+                        <option value="simvastatin">Simvastatin</option>
+                        <option value="prednisone">Prednisone</option>
+                        <option value="ibuprofen">Ibuprofen</option>
+                        <option value="omeprazole">Omeprazole</option>
+                        <option value="albuterol">Albuterol</option>
+                        <option value="loratadine">Loratadine</option>
+                        <option value="hydrochlorothiazide">Hydrochlorothiazide</option>
+                        <option value="levothyroxine">Levothyroxine</option>
+                        <option value="cetirizine">Cetirizine</option>
+                        <option value="diphenhydramine">Diphenhydramine</option>
+                        <option value="hydrocodone">Hydrocodone</option>
+                        <option value="gabapentin">Gabapentin</option>
+                        <option value="clonazepam">Clonazepam</option>
+                        <option value="fluoxetine">Fluoxetine</option>
+                        <option value="tramadol">Tramadol</option>
+                        <option value="warfarin">Warfarin</option>
+                        <option value="topiramate">Topiramate</option>
+                        <option value="furosemide">Furosemide</option>
+                        <option value="tamsulosin">Tamsulosin</option>
+                        <option value="doxycycline">Doxycycline</option>
+                        <option value="metronidazole">Metronidazole</option>
+                        <option value="azithromycin">Azithromycin</option>
+                        <option value="venlafaxine">Venlafaxine</option>
+                        <option value="lorazepam">Lorazepam</option>
+                        <option value="naproxen">Naproxen</option>
+                        <option value="dextromethorphan">Dextromethorphan</option>
+                        <option value="prednisolone">Prednisolone</option>
+                        <option value="zofran">Zofran</option>
+                        <option value="carvedilol">Carvedilol</option>
+                        <option value="mirtazapine">Mirtazapine</option>
+                        <option value="spironolactone">Spironolactone</option>
+    
+                    </select>
+                </div>
+    
+                <div class="form-group">
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity" name="quantity" min="1" required placeholder="Enter quantity">
+                </div>
+    
+                <div class="form-group">
+                    <label for="delivery">Delivery Option</label>
+                    <select id="delivery" name="delivery" required>
+                        <option value="" disabled selected>Select a delivery option</option>
+                        <option value="pickup">Pickup at Hospital</option>
+                        <option value="home">Home Delivery</option>
+                    </select>
+                </div>
+    
+                <div class="form-group">
+                    <label for="prescription">Upload Prescription Image</label>
+                    <input type="file" id="prescription" name="prescription" accept="image/*">
+                </div>
+    
+                <div class="form-info">
+                    <p>Please ensure that your prescription image is clear and legible. Only image files are accepted.</p>
+                </div>
+    
+                <button type="submit" class="form-button">Submit Order</button>
+            </form>
+        </div>
+    </section>
+
+    
+       <section id="footer" class="footer-content">
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-section contact-info">
+                    <h4>Contact Us</h4>
+                    <p >Email: dineel2003@gmail.com</p>
+                    <p >Phone: +94 71 740 5262</p>
+                    <p>Address: 55/2,Metro care,colombo.</p>
+                    
+                </div>
+        
+                <div class="footer-section social-media">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/dineel2003" aria-label="Facebook" class="social-icon facebook-icon"></a>
+                        <a href="https://twitter.com/@dineel2003" aria-label="Twitter" class="social-icon twitter-icon"></a>
+                        <a href="https://www.instagram.com/dineel2003" aria-label="Instagram" class="social-icon instagram-icon"></a>
+                        <a href="https://www.linkedin.com/in/anupa-dineel-a525a6326/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B78m%2FQlrqSu%2BwsPcbqlUBnw%3D%3D" aria-label="Linkedin" class="social-icon linkedin-icon"></a>
+                    </div>
+                </div>
+        
+                <div class="footer-section quick-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="About_us .html">About Us</a></li>
+                        <li><a href="Services.html">Services</a></li>
+                        <li><a href="Registration.html">Registration</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-section legal-info">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="footer-bottom">
+                <p>&copy; 2024 Metro Care Company Pvt Ltd. All rights reserved.</p>
+            </div>
+        </footer>
+    </section>
+        
+
+ 
+</body>
+</html>
